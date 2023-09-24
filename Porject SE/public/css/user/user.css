@@ -1,0 +1,164 @@
+.user-dropdown {
+  display: none;
+  width: fit-content;
+  height: fit-content;
+  border: 2px solid black;
+  position: absolute;
+  z-index: 2;
+  margin-top: 150px;
+  margin-left: 88%;
+  background-color: white;
+}
+
+.my-profile,
+.logout {
+  padding: 1px 13px;
+}
+
+.my-profile button,
+.logout button {
+  background: none;
+  border: none;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  color: black;
+  cursor: pointer;
+}
+
+.my-profile:hover,
+.logout:hover {
+  background: #f0f1f2;
+}
+
+.my-profile img {
+  padding-right: 10px;
+}
+
+.logout img {
+  padding-right: 15px;
+}
+
+.gambar{
+  width: 1080px;
+  height: 400px;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1241px;
+  margin: auto;
+  padding-top: 75px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.view-category {
+  padding-top: 100px;
+}
+
+.view-category-title,
+.about-us-title {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.view-categoryBtn-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.view-categoryBtn-container button {
+  border: none;
+  /* background-color: #D9D9D9; */
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px 40px;
+  padding: 15px 18px;
+  border-radius: 20px;
+}
+
+.view-all-product {
+  padding-top: 20px;
+}
+
+.view-all-product-title {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.about-us {
+  padding-top: 110px;
+}
+
+.row-tentang-toko{
+  display: flex;
+  margin: 15px 40px;
+  padding-bottom: 50px;
+}
+
+.column-tentang-toko{
+  display: flex;
+}
+
+.prev-slide, 
+.next-slide {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px 12px;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+}
+
+.deskripsi-toko{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.map-responsive iframe{
+  width: 1000px;
+  height: 400px;
+  outline: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3%;
+  margin-left: 10%;
+}

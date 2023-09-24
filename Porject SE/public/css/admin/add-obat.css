@@ -1,0 +1,72 @@
+.add-obat-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.add-obat-form-bar input {
+  width: 650px;
+  margin: 15px 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+.add-obat-form-bar select {
+  width: 650px;
+  margin: 15px 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+.add-obat-form-bar input:focus {
+  text-align: center;
+}
+
+.add-obat-form-bar input::placeholder {
+  color: #999999;
+  font-weight: 500;
+  text-align: center;
+}
+
+.add-obat-form-bar label {
+  display: block;
+  text-align: center;
+  margin: 10px 0px -30px 0px;
+}
+
+.add-obat-form-bar input[type="file"] {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+  color: #999999;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  text-align-last: center;
+}
+
+.add-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.add-btn button {
+  margin-top: 30px;
+  padding: 8px 40px;
+  border: none;
+  border-radius: 15px;
+  background-color: #F364FF;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.add-btn button:hover {
+  background-color: #CB3BD9;
+  transition-duration: 0.3s;
+}
+
+.invalid-msg {
+  margin-top: -15px;
+  color: red;
+  font-size: 13px;
+}
